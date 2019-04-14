@@ -9,76 +9,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-  <style>
-    /* Remove the navbar's default margin-bottom and rounded borders */ 
-
-
- .navbar {
-      padding-top: 15px;
-      padding-bottom: 15px;
-      border: 0;
-      border-radius: 0;
-      margin-bottom: 0;
-      font-size: 12px;
-      font-color:white;
-      letter-spacing: 5px;
-       background-color: #0E7D60;
-
-  }
-  .navbar-nav  li a:hover {
-      color: #000 !important;
-  }
- .anch {
-    text-decoration: none;
-    
-}
-.textColor{
-color: white;
-}
-
-.navbar-default .navbar-nav > li > a {
-    color: white; /*Change active text color here*/
-}
-    
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 1000px}
-    
-    /* Set gray background color and 100% height */
-    
-    .sidenav {
-
-         background:  url("img/nw/bg3.jpg");
-      padding-top: 20px;
-      background-color: #f1f1f1;
-      height: 100%;
-    }
-    
-    /* Set black background color, white text and some padding */
-    
-    footer {
-      background-color: #0E7D60;
-      color: white;
-      padding: 15px;
-    }
-    
-    /* On small screens, set height to 'auto' for sidenav and grid */
-    @media screen and (max-width: 767px) {
-      .sidenav {
-        height: auto;
-        padding: 15px;
-      }
-      .row.content {height:auto;} 
-    }
-    .test {
-    /*background:  url("img/nw/bg3.jpg");*/
-      background-color: #0E7D60;
-      margin-bottom:0;
-  }
-  body{
-    background:  url("img/nw/bg3.jpg");
-
-  }
-  </style>
+   <link href="css/custom-style.css" rel="stylesheet">
+ 
 </head>
 <body>
 
@@ -100,7 +32,7 @@ color: white;
         <li><a href="about.html">About</a></li>
         <!-- <li><a href="#experience">Experience</a></li> -->
         <li><a href="events.html">Events</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li class="nav-item active "><a href="contact.html">Contact</a></li>
         <!-- <li><a href="prayer.html">Prayer</a></li> -->
     <!-- <li><a href="http://bsf.siddiq.io/" target='_blank'>Blog</a></li> -->
 
@@ -115,17 +47,17 @@ color: white;
   </div>
 </div> -->
  
-<div class="container-fluid text-center">    
-  <div class="row content">
+<div class="container-fluid spl-font">    
+  <div class="row content text-center">
  
 
-     <div class="col-sm-2 sidenav">
+     <div class="col-sm-2 sidenav ">
         <h2 class="section-heading mb-5">
                 <span class="section-heading-upper">Namaz Timing</span>
                 
               </h2>
 
-     <table class="table table-bordered  table-hover">
+     <table class="table table-bordered  table-hover ">
   <thead>
     <tr>
       <th></th>

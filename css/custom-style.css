@@ -71,3 +71,19 @@ color: white;
     background:  url("../img/nw/bg3.jpg");
 
   }
+  .act{
+     background-color: #0E7D60;
+  }
+
+.panel > .panel-heading {
+    background-image: none;
+    background-color: #0E7D60;
+    color: white;
+
+}
+ .panel > .panel-footer {
+    background-image: none;
+    background-color: #0E7D60;
+    color: white;
+
+}
