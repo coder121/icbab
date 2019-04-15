@@ -71,9 +71,7 @@ color: white;
     background:  url("../img/nw/bg3.jpg");
 
   }
-  .act{
-     background-color: #0E7D60;
-  }
+
 
 .panel > .panel-heading {
     background-image: none;
@@ -87,3 +85,39 @@ color: white;
     color: white;
 
 }
+.mapouter{
+         /*position:absolute;*/
+         text-align:center;
+         height:300px;
+         width:600px;
+         top:400px;
+         display: flex;
+         justify-content: center;
+         }
+         .gmap_canvas {
+            position: relative;
+         overflow:hidden;
+         background:none!important;
+         height:300px;
+         width:600px;
+         border-style: double;
+         /*float:left; 
+         clear: left;*/
+         display: flex;
+         }
+         .gmap_canvas iframe{
+            display: flex;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+         }
+         .tble-border{
+            border-style:double;
+            background-color: white;
+         }
+         .sideborder{
+            border-style:double;
+            background-color: white;
+         }
